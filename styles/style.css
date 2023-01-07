@@ -10,6 +10,7 @@
 .container-full {
     max-width: 1600px;
     height: auto;
+    margin: auto;
 }
 
 .container {
@@ -201,6 +202,7 @@
 .footer-content {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 330px;
     padding: 130px 0;
 }
