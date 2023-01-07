@@ -106,6 +106,7 @@
     display: flex;
     gap: 87px;
     align-items: center;
+
 }
 
 .failures-pic {
@@ -126,6 +127,7 @@
 .l-icon {
     display: inline;
     width: 20px;
+    margin-right: 10px;
 }
 
 /* plan css */
