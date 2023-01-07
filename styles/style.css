@@ -69,7 +69,18 @@
 
 }
 
-.secondary-btn {}
+.secondary-btn {
+    color: #F15B22;
+    background-color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 35px;
+
+}
 
 /* banner */
 .banner {
@@ -147,3 +158,102 @@
     width: 90px;
     height: auto;
 }
+
+/* landing page section */
+.landing-page {
+    background-image: url(../images/watch.png);
+    position: relative;
+    z-index: 1;
+}
+
+.landing-page::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/gradient2.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.landing-page-content {
+    width: 459px;
+    padding: 60px 0 60px 64px;
+}
+
+.landing-title {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 47px;
+    margin-bottom: 24px;
+}
+
+/* footer section */
+.footer{
+    background-color: #151414;
+}
+.footer-content {
+    display: flex;
+    align-items: center;
+    gap: 330px;
+}
+.future-content{
+    width: 485px;
+}
+
+.future-title {
+    color: #F8F8F8;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.future-description {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 16px 0 24px 0;
+}
+.s-title {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    margin-bottom: 31px;
+}
+.social-icons ul{
+    width: 175px;
+    height: auto;
+    display: flex;
+    gap: 18px;
+
+}
+.contact >p{
+    color: #FFFFFF;
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+margin: 16px 0;
+}
+
+.subscribe-content {
+
+}
+.subscribe-content input[type="email"]{
+    width: 300px;
+    padding: 10px 15px;
+    background-color: #151414;
+    border-radius: 5px;
+    border: 1px solid rgb(189, 187, 187);
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
