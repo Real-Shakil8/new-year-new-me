@@ -144,6 +144,7 @@
     font-weight: 700;
     font-size: 30px;
     line-height: 35px;
+    margin-bottom: 16px;
 }
 
 .plan-description {
@@ -199,6 +200,7 @@
     display: flex;
     align-items: center;
     gap: 330px;
+    padding: 130px 0;
 }
 .future-content{
     width: 485px;
